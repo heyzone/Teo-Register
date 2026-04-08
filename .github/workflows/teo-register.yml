@@ -103,7 +103,7 @@ jobs:
       - name: Run script
         run: |
           mkdir -p scripts/screenshots
-          xvfb-run -a node scripts/renew.js
+          xvfb-run -a node scripts/register.js
 
       # =========================
       # 🟡 7️⃣ 上传截图
